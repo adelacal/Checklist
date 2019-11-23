@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetItems</class>
+ <widget class="QWidget" name="WidgetItems">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>710</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QLabel" name="Info_label_2">
+     <property name="font">
+      <font>
+       <family>Baskerville</family>
+       <pointsize>20</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <underline>true</underline>
+      </font>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#800002;&quot;&gt;Please enter classes needed in order for you to transfer to the School you have selected  &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="AddSchoolPushButton">
+       <property name="font">
+        <font>
+         <family>Iowan Old Style</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Choose a School</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="font">
+        <font>
+         <family>Iowan Old Style</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>Select School or type in the School Name</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC Berkeley</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC Davis</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC Irvine</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UCLA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC Merced</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC Riverside</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC San Diego</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC San Francisco</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC Santa Barbara</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UC Santa Cruz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU BakersField</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Channel Islands</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Chico</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Dominquez Hills</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU East Bay</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Fresno</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Fullerton</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Humboldt</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Long Beach</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Los Angeles</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Maritime Academy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Monterey Bay</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Northridge</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Pomona</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Sacramento</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU San Bernardino</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU San Diego</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU San Francisco </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU San José</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU San Luis Obispo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU San Marcos</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Sonoma </string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CSU Stanislaus</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Iowan Old Style</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;School Name:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="Schoollabel">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <family>Iowan Old Style</family>
+         <pointsize>20</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#000080;&quot;&gt;example: UC Riverside&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="indent">
+        <number>-1</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_6"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="AddClassPushButton">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Add Class</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="ClassName">
+       <property name="font">
+        <font>
+         <family>.SF Compact Rounded</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bio-10</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listWidget">
+       <property name="font">
+        <font>
+         <family>Baskerville</family>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="ClearPushButton">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Clear Selected Classes</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="ClearAllPushButton_2">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Reset</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ClearAllPushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>listWidget</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>313</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>385</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ClearAllPushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>ClassName</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>211</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>208</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ClearAllPushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Schoollabel</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>312</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>381</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
